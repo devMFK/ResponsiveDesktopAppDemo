@@ -1,0 +1,29 @@
+﻿<Window
+    x:Class="ResponsiveDesktopAppDemo.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:ResponsiveDesktopAppDemo"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="MainWindow"
+    Width="1000"
+    Height="450"
+    mc:Ignorable="d">
+    <WrapPanel>
+        <StackPanel>
+            <Label Content="birinci panel" FontSize="30" />
+        </StackPanel>
+        <StackPanel>
+            <Label Content="ikinci panel" FontSize="30" />
+        </StackPanel>
+        <StackPanel>
+            <Label Content="üçüncü panel" FontSize="30" />
+        </StackPanel>
+        <StackPanel>
+            <Label Content="dördüncü panel" FontSize="30" />
+        </StackPanel>
+        <StackPanel>
+            <Label Content="beşinci panel" FontSize="30" />
+        </StackPanel>
+    </WrapPanel>
+</Window>
